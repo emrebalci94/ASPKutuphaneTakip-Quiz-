@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="KutuphaneTicaret.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/modal.css" rel="stylesheet" />
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <link href="css/stiller.css" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" />
+    <script src="scripts/modalandslider.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Site">
+        <div id="Banner">
+                    <div style="position:absolute;margin-top:20px;margin-left:20px">
+                        <asp:ContentPlaceHolder ID="contentUye" runat="server">
+
+                       </asp:ContentPlaceHolder>
+                    </div>
+             <div id="Menu">
+         
+            <div class="menu" onclick="GirisPanel()" runat="server" id="uyeGiris" >
+                Üye Girişi</div>
+            <div class="menu" onclick="Kitaplarim(0,'')" id="kitaplarim" style="display:none" >Kitaplarım</div>
+            <div class="menu" onclick="urunListele()">Kitap Bak</div>
+            <div class="menu" id="sepetimButton" onclick="Sepetim()">Kitap Sepet</div>
+            <div class="menu" style="display:none;" id="cikisYap"  onclick="CikisYap()">Çıkış Yap</div>
+        </div>
+        </div>
+       
+        <div id="icerik">
+            <div id="ic">
+                <asp:ContentPlaceHolder ID="iceri" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+             
+        </div>
+        <div id="footer">
+            <code>Copyright Emre Balcı</code>
+        </div>
+    </div>
+        <div id="girisPanel" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close" id="girisPanelClose">×</span>
+              <h2>Giris Ekranı</h2>
+            </div>
+            <div class="modal-body">
+              
+                <img src="img/avatar.png" alt="Alternate Text" class="loginAvatar"/>
+                <input type="text" name="txtKuladi" value="" id="txtKuladi" placeholder="Kullanıcı Adı"/>
+                
+                  <input type="password" name="txtSifre" value="" id="txtSifre" placeholder="Şifre"/>
+ 
+                <br />
+                <br />
+                 <input type="button" name="btnGirisYap" value="GirisYap" id="btnGirisYap" class="button" />
+                <input type="button" name="btnKayitOl" value="Kayit Ol" id="btnKayitOl" class="button" />
+                <br />
+                <br />
+            </div>
+          
+          </div>
+
+        </div>
+    </form>
+</body>
+</html>

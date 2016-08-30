@@ -1,0 +1,62 @@
+﻿.sidenav {
+            float: right;
+            height: 450px;
+            width: 0;
+            position: relative;
+            z-index: 1;
+            background-color: rgba(0,0,0,0.8);
+            overflow-x: hidden;
+            transition: 0.5s;
+            margin-left: 5px;
+            color:#0b6283;
+        }
+
+            .sidenav a {
+                padding: 3px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 30px;
+                font-weight:bold;
+                color: #0b6283;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover, .offcanvas a:focus {
+                    color: #f1f1f1;               
+                }
+
+            .sidenav .closebtn {
+                left: 55px;
+                font-size: 36px;
+                margin-left: 50px;
+                float: right;
+            }
+            .openNav{
+                font-size: 40px; 
+                font-weight:bold;
+                cursor: pointer; 
+                color: #0b6283;
+                transition:.5s ease-in-out;
+            }
+            .openNav:hover{
+                color:white;
+                 font-size:45px;
+            }
+
+  .filtreButon{
+          width: 75px;
+    background-color:#0b6283 ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height:30px;
+    float:left;
+    margin-left:70px;
+    transition:.5s ease-in-out;
+
+ }
+  .filtreButon:hover{
+    background-color:#808080 ;
+    
+  }

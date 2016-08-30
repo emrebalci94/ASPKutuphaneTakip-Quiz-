@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\Web Örnekleri\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.dll.config
+C:\Users\Administrator\Desktop\Web Örnekleri\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.dll
+C:\Users\Administrator\Desktop\Web Örnekleri\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.pdb
+C:\Users\Administrator\Desktop\Web Örnekleri\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Web Örnekleri\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.dll
+C:\Users\Administrator\Desktop\Web Örnekleri\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.pdb
+C:\Users\Administrator\Desktop\Web Örnekleri\KutuphaneTicaret\KutuphaneTicaret\bin\Newtonsoft.Json.dll
+C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.dll.config
+C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.dll
+C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.pdb
+C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.csprojResolveAssemblyReference.cache
+C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.dll
+C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.pdb
