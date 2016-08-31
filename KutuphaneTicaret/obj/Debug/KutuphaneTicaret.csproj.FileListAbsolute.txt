@@ -11,3 +11,8 @@ C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicar
 C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.csprojResolveAssemblyReference.cache
 C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.dll
 C:\Users\Palyosemre\Desktop\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.pdb
+C:\Users\Palyosemre\Documents\GitHub\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.dll.config
+C:\Users\Palyosemre\Documents\GitHub\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.dll
+C:\Users\Palyosemre\Documents\GitHub\KutuphaneTicaret\KutuphaneTicaret\bin\KutuphaneTicaret.pdb
+C:\Users\Palyosemre\Documents\GitHub\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.dll
+C:\Users\Palyosemre\Documents\GitHub\KutuphaneTicaret\KutuphaneTicaret\obj\Debug\KutuphaneTicaret.pdb

@@ -157,5 +157,15 @@ namespace KutuphaneTicaret
             adtr.Fill(dt);
             return JsonConvert.SerializeObject(dt, Formatting.Indented);
         }
+
+        [WebMethod]
+        public static void SepetimTemizle(int uyeId)
+        {
+            SqlDataAdapter adtr = new SqlDataAdapter("delete From Sepet Where uyeId=@id", baglanti);
+            adtr.SelectCommand.Parameters.AddWithValue("id", uyeId);
+            baglanti.Open();
+            adtr.SelectCommand.ExecuteNonQuery();
+            baglanti.Close();
+        }
     }
 }

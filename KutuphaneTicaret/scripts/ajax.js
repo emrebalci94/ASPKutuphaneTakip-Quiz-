@@ -357,28 +357,52 @@ function filtreliUrunler(idler) {
 }
 
 function SatinAl() {
+
     var id = window.sessionStorage.getItem("giris");
     var urun = document.getElementsByClassName("SepetUrun");
     if(id!=null){
         for (var i = 0; i < urun.length ; i++){
             var kitapId = urun[i].id;
             var sepetId = urun[i].title;
-            SatinAlAjax(kitapId, id, sepetId);
-            SepettenCikar(sepetId);
+            SatinAlAjax(kitapId, id);
         }
+        SepetTemizle();
+        GirisBak();
     }
     else {
         alert("Lütfen Giriş Yapınız...");
     }
 }
 
-function SatinAlAjax(kid, uid, sid) {
+function SepetTemizle() {
+    var uyeId = window.sessionStorage.getItem("giris");
+    if (uyeId != null) {
+        $.ajax({
+            url: "Default.aspx/SepetimTemizle",
+            contentType: "application/json",
+            type: "post",
+            dataType: "json",
+            data: "{uyeId:'" + uyeId + "'}",
+            success: function () {
+
+            },
+            error: function () {
+                alert("Bağlantı Hatası");
+            }
+        })
+    }
+    else {
+        CikisYap();
+    }
+}
+
+function SatinAlAjax(kid, uid) {
     $.ajax({
         url: "Default.aspx/SatinAl",
         contentType: "application/json",
         type: "post",
         dataType: "json",
-        data: "{kitapId:'" + kid + "',uyeId:'" + uid + "',sepetId:'" + sid + "'}",
+        data: "{kitapId:'" + kid + "',uyeId:'" + uid + "'}",
         success: function () {
 
         },
@@ -386,7 +410,7 @@ function SatinAlAjax(kid, uid, sid) {
             alert("Bağlantı Hatası");
         }
 
-    })
+    });
 }
 
 function Kitaplarim(aramaDurum,aranacak) {
